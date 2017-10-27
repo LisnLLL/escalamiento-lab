@@ -1,0 +1,7 @@
+#cloud-config
+mounts:
+- ["/dev/sda5", "/mnt", "ext4", ""]
+rancher:
+  password: infra
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzuvjH2XSpSMkn7D0hBES7PxRpRDEKxm6zhoJcQfSXZGCLV/Ae/wyj5IcxOr4LRqa0ztiO2jh1Wky2AUa4GD/jsEDPmxSY1FMPXnOikkKWykR5PQIwNi4etsM/TSlYj8RtkGnrYxlDNZxwVMJ3gfftPMIfUVjRPuhgx+4I7qyIqMv9frp7I9pniuOJREMjnZ2+Zh/EqvAEVrjtJsTHBHbF7Ng33JdSBi29K8aN6cCbTIRqBx6GdRR8G9fMKrOpuXHBKTzkVkK5Rk920WbK3pjTHm1PVsQpp0T4LDqsB7ys9TeJN6+n/y6AT0zm9zUflgRxpfT2HMq4p15np2R+7x/9 chrodriguez@gmail.com
